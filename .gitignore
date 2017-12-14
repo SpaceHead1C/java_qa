@@ -18,3 +18,4 @@ sandbox/build/tmp/jar/MANIFEST.MF
 .idea/workspace.xml
 sandbox/build/distributions/
 sandbox/build/scripts/
+sandbox/out/
