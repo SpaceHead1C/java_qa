@@ -1,0 +1,33 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.testng:testng:6.13.1'
+    compile 'org.seleniumhq.selenium:selenium-java:3.8.1'
+    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile 'commons-net:commons-net:3.6'
+    compile 'org.subethamail:subethasmtp:3.1.7'
+    compile 'ru.lanwen.verbalregex:java-verbal-expressions:1.4'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'biz.futureware.mantis:mantis-axis-soap-client:1.2.19'
+}
+
+test {
+    useTestNG {
+        suites 'src/test/resources/testng.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+    if (project.hasProperty('verifyUI')) {
+        systemProperty 'verifyUI', "${verifyUI}"
+    }
+}
