@@ -20,3 +20,7 @@ sandbox/build/distributions/
 sandbox/build/scripts/
 sandbox/out/
 addressbook-web-tests/out/
+addressbook-web-tests/build/classes/
+addressbook-web-tests/build/libs/
+addressbook-web-tests/build/resources/
+addressbook-web-tests/build/tmp/
