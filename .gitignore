@@ -15,7 +15,7 @@ gradle-app.setting
 sandbox/build/classes/
 sandbox/build/libs/sandbox.jar
 sandbox/build/tmp/jar/MANIFEST.MF
-.idea/workspace.xml
+.idea/
 sandbox/build/distributions/
 sandbox/build/scripts/
 sandbox/out/
