@@ -55,7 +55,20 @@ public class ApplicationManager {
             }
         } else {
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setBrowserName(browser);
+
+            if (browser.equals(BrowserType.FIREFOX)) {
+                System.setProperty("webdriver.gecko.driver", "C:\\utils\\geckodriver\\geckodriver.exe");
+                capabilities = DesiredCapabilities.firefox();
+            } else if (browser.equals(BrowserType.CHROME)) {
+                System.setProperty("webdriver.chrome.driver", "C:\\utils\\chromedriver\\chromedriver.exe");
+                capabilities = DesiredCapabilities.chrome();
+            } else if (browser.equals(BrowserType.IE)) {
+                System.setProperty("webdriver.ie.driver", "C:\\utils\\iedriver\\IEDriverServer.exe");
+                capabilities = DesiredCapabilities.internetExplorer();
+            }
+
+            //capabilities.setBrowserName(browser);
+            //capabilities.setPlatform(org.openqa.selenium.Platform.WINDOWS);
             driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), capabilities);
         }
 
