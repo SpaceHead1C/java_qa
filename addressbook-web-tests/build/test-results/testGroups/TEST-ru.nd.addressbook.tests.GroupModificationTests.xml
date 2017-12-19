@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.nd.addressbook.tests.GroupModificationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-19T14:29:35" hostname="MSI" time="1.507">
+  <properties/>
+  <testcase name="testGroupModification" classname="ru.nd.addressbook.tests.GroupModificationTests" time="1.507"/>
+  <system-out><![CDATA[17:29:34.775 [Test worker] INFO  ru.nd.addressbook.tests.TestBase - Start test testGroupModification with parameters []
+Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
+Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
+Hibernate: select groupdata0_.group_id as group_id1_2_, groupdata0_.group_footer as group_fo2_2_, groupdata0_.group_header as group_he3_2_, groupdata0_.group_name as group_na4_2_ from group_list groupdata0_
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

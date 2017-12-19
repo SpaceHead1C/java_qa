@@ -24,3 +24,6 @@ addressbook-web-tests/build/classes/
 addressbook-web-tests/build/libs/
 addressbook-web-tests/build/resources/
 addressbook-web-tests/build/tmp/
+addressbook-web-tests/allure-report/
+addressbook-web-tests/build/allure-results/
+addressbook-web-tests/build/reports/

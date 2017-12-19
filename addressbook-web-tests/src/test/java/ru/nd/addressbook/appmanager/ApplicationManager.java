@@ -1,6 +1,8 @@
 package ru.nd.addressbook.appmanager;
 
+import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -45,13 +47,13 @@ public class ApplicationManager {
 
         if ("".equals(properties.getProperty("selenium.server"))) {
             if (browser.equals(BrowserType.FIREFOX)) {
-                //System.setProperty("webdriver.gecko.driver", "C:\\utils\\geckodriver\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\utils\\geckodriver\\geckodriver.exe");
                 driver = new FirefoxDriver();
             } else if (browser.equals(BrowserType.CHROME)) {
-                //System.setProperty("webdriver.chrome.driver", "C:\\utils\\chromedriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\utils\\chromedriver\\chromedriver.exe");
                 driver = new ChromeDriver();
             } else if (browser.equals(BrowserType.IE)) {
-                //System.setProperty("webdriver.ie.driver", "C:\\utils\\iedriver\\IEDriverServer.exe");
+                System.setProperty("webdriver.ie.driver", "C:\\utils\\iedriver\\IEDriverServer.exe");
                 driver = new InternetExplorerDriver();
             }
         } else {
@@ -107,5 +109,9 @@ public class ApplicationManager {
 
     public DbHelper db() {
         return dbHelper;
+    }
+
+    public byte[] takeScreenshot() {
+        return ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
     }
 }
