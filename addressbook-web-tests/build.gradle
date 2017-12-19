@@ -22,6 +22,8 @@ dependencies {
     compile 'org.hibernate:hibernate-core:5.2.12.Final'
     agent "org.aspectj:aspectjweaver:1.8.0"
     compile "ru.yandex.qatools.allure:allure-testng-adaptor:1.4.0.RC4"
+    compile 'info.cukes:cucumber-java:1.2.4'
+    compile 'info.cukes:cucumber-testng:1.2.4'
 }
 
 task testGroups(type: Test) {
