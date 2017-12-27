@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>net.webservicex</OriginalElement>
+  <nodes>
+    <node x="-63.0" y="92.0">net.webservicex.GetGeoIPContextResponse</node>
+    <node x="-339.0" y="315.0">net.webservicex.GetGeoIPContext</node>
+    <node x="388.0" y="-3.5">ru.nd.soap.GeoIpServiceTests</node>
+    <node x="5.0" y="197.0">net.webservicex.GeoIPServiceHttpPost</node>
+    <node x="-218.0" y="92.0">net.webservicex.GeoIP</node>
+    <node x="8.0" y="242.0">net.webservicex.GeoIPServiceHttpGet</node>
+    <node x="18.0" y="286.0">net.webservicex.GeoIPServiceSoap</node>
+    <node x="-142.0" y="316.0">net.webservicex.GetGeoIP</node>
+    <node x="-454.0" y="92.0">net.webservicex.GetGeoIPResponse</node>
+    <node x="-239.0" y="235.0">net.webservicex.ObjectFactory</node>
+    <node x="-241.0" y="-3.0">net.webservicex.GeoIPService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="net.webservicex.ObjectFactory" target="net.webservicex.GetGeoIPContextResponse">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="net.webservicex.ObjectFactory" target="net.webservicex.GetGeoIPResponse">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="net.webservicex.GetGeoIPContextResponse" target="net.webservicex.GeoIP">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.soap.GeoIpServiceTests" target="net.webservicex.GeoIPService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="net.webservicex.GetGeoIPResponse" target="net.webservicex.GeoIP">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="net.webservicex.ObjectFactory" target="net.webservicex.GeoIP">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="net.webservicex.ObjectFactory" target="net.webservicex.GetGeoIP">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="net.webservicex.ObjectFactory" target="net.webservicex.GetGeoIPContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="167.0" y="163.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

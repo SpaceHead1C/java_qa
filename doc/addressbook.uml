@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.nd.addressbook</OriginalElement>
+  <nodes>
+    <node x="447.5" y="12.5">ru.nd.addressbook.tests.TestBase</node>
+    <node x="-92.5" y="102.5">ru.nd.addressbook.appmanager.SessionHelper</node>
+    <node x="374.5" y="183.5">ru.nd.addressbook.tests.GroupModificationTests</node>
+    <node x="-234.5" y="99.5">ru.nd.addressbook.appmanager.NavigationHelper</node>
+    <node x="316.5" y="147.5">ru.nd.addressbook.tests.GroupDeletionTests</node>
+    <node x="437.5" y="-117.5">ru.nd.addressbook.tests.MyTestListener</node>
+    <node x="-270.5" y="-16.5">ru.nd.addressbook.appmanager.ApplicationManager</node>
+    <node x="-466.5" y="95.5">ru.nd.addressbook.appmanager.ContactHelper</node>
+    <node x="-351.5" y="496.5">ru.nd.addressbook.model.Contacts</node>
+    <node x="-247.5" y="226.5">ru.nd.addressbook.appmanager.HelperBase</node>
+    <node x="443.5" y="-30.5">ru.nd.addressbook.bdd.GroupTests</node>
+    <node x="-35.5" y="288.5">ru.nd.addressbook.model.GroupData</node>
+    <node x="762.5" y="257.5">ru.nd.addressbook.tests.ContactCreationTests</node>
+    <node x="-14.5" y="414.5">ru.nd.addressbook.generators.GroupDataGenerator</node>
+    <node x="-329.5" y="349.5">ru.nd.addressbook.model.Groups</node>
+    <node x="-121.5" y="496.5">ru.nd.addressbook.model.ContactData</node>
+    <node x="608.5" y="256.5">ru.nd.addressbook.tests.ContactPhonesTests</node>
+    <node x="348.5" y="308.5">ru.nd.addressbook.tests.DbConnectionTest</node>
+    <node x="487.5" y="219.5">ru.nd.addressbook.tests.GroupCreationTests</node>
+    <node x="423.5" y="-73.5">ru.nd.addressbook.tests.HbConnectionTest</node>
+    <node x="-582.5" y="92.5">ru.nd.addressbook.appmanager.DbHelper</node>
+    <node x="78.5" y="89.5">ru.nd.addressbook.bdd.GroupStepDefenitions</node>
+    <node x="-351.5" y="97.5">ru.nd.addressbook.appmanager.GroupHelper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.nd.addressbook.bdd.GroupStepDefenitions" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.TestBase" target="ru.nd.addressbook.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.SessionHelper" target="ru.nd.addressbook.appmanager.HelperBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ApplicationManager" target="ru.nd.addressbook.appmanager.DbHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.model.Groups" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.bdd.GroupStepDefenitions" target="ru.nd.addressbook.model.Groups">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.model.ContactData" target="ru.nd.addressbook.model.Groups">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.GroupCreationTests" target="ru.nd.addressbook.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.GroupHelper" target="ru.nd.addressbook.model.Groups">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.GroupDeletionTests" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ApplicationManager" target="ru.nd.addressbook.appmanager.GroupHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.GroupDeletionTests" target="ru.nd.addressbook.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.NavigationHelper" target="ru.nd.addressbook.appmanager.HelperBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.model.GroupData" target="ru.nd.addressbook.model.Contacts">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.bdd.GroupStepDefenitions" target="ru.nd.addressbook.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.GroupHelper" target="ru.nd.addressbook.appmanager.HelperBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ContactHelper" target="ru.nd.addressbook.model.Contacts">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.model.GroupData" target="ru.nd.addressbook.model.ContactData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.generators.GroupDataGenerator" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.DbConnectionTest" target="ru.nd.addressbook.model.Groups">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ApplicationManager" target="ru.nd.addressbook.appmanager.NavigationHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.ContactPhonesTests" target="ru.nd.addressbook.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ApplicationManager" target="ru.nd.addressbook.appmanager.SessionHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.DbConnectionTest" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ApplicationManager" target="ru.nd.addressbook.appmanager.ContactHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.ContactCreationTests" target="ru.nd.addressbook.model.ContactData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.TestBase" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.DbHelper" target="ru.nd.addressbook.model.Groups">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.GroupModificationTests" target="ru.nd.addressbook.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.GroupCreationTests" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.ContactCreationTests" target="ru.nd.addressbook.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.model.Contacts" target="ru.nd.addressbook.model.ContactData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.model.ContactData" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.tests.GroupModificationTests" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ContactHelper" target="ru.nd.addressbook.appmanager.HelperBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.ContactHelper" target="ru.nd.addressbook.model.ContactData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.addressbook.appmanager.GroupHelper" target="ru.nd.addressbook.model.GroupData">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.0" y="128.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

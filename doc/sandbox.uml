@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.nd.sandbox</OriginalElement>
+  <nodes>
+    <node x="-173.0" y="-108.0">ru.nd.sandbox.Equation</node>
+    <node x="-175.0" y="22.0">ru.nd.sandbox.Rectangle</node>
+    <node x="127.0" y="-89.0">ru.nd.sandbox.EqualsTests</node>
+    <node x="-167.0" y="-44.0">ru.nd.sandbox.Square</node>
+    <node x="-161.0" y="94.0">ru.nd.sandbox.Point</node>
+    <node x="-168.0" y="-168.0">ru.nd.sandbox.Primes</node>
+    <node x="-391.0" y="16.0">ru.nd.sandbox.MyFirstProgram</node>
+    <node x="126.0" y="-43.0">ru.nd.sandbox.SquareTests</node>
+    <node x="128.0" y="-138.0">ru.nd.sandbox.PrimeTests</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.nd.sandbox.MyFirstProgram" target="ru.nd.sandbox.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.sandbox.MyFirstProgram" target="ru.nd.sandbox.Point">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.sandbox.MyFirstProgram" target="ru.nd.sandbox.Rectangle">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.sandbox.SquareTests" target="ru.nd.sandbox.Square">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.sandbox.EqualsTests" target="ru.nd.sandbox.Equation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="143.0" y="125.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

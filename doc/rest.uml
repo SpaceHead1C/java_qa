@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.nd.rest</OriginalElement>
+  <nodes>
+    <node x="-145.0" y="41.0">ru.nd.rest.RestTests</node>
+    <node x="-134.0" y="-51.0">ru.nd.rest.Issue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.nd.rest.RestTests" target="ru.nd.rest.Issue">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="40.5" y="51.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

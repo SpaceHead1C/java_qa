@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.nd</OriginalElement>
+  <nodes>
+    <node x="208.5" y="-2.0">ru.nd.tests.TestBase</node>
+    <node x="-418.5" y="427.0">ru.nd.model.MailMessage</node>
+    <node x="-208.5" y="-191.0">ru.nd.appmanager.HelperBase</node>
+    <node x="-241.5" y="-2.0">ru.nd.appmanager.ApplicationManager</node>
+    <node x="262.5" y="85.0">ru.nd.tests.RegistrationTests</node>
+    <node x="137.5" y="86.0">ru.nd.tests.LoginTests</node>
+    <node x="-387.5" y="-107.0">ru.nd.appmanager.RegistrationHelper</node>
+    <node x="201.5" y="-79.0">ru.nd.tests.SoapTests</node>
+    <node x="-327.5" y="133.0">ru.nd.appmanager.FtpHelper</node>
+    <node x="-123.5" y="223.0">ru.nd.appmanager.MailHelper</node>
+    <node x="-249.5" y="183.0">ru.nd.appmanager.JamesHelper</node>
+    <node x="-406.5" y="82.0">ru.nd.appmanager.HttpSession</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.nd.appmanager.RegistrationHelper" target="ru.nd.appmanager.HelperBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.MailHelper" target="ru.nd.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.HttpSession" target="ru.nd.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.ApplicationManager" target="ru.nd.appmanager.FtpHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.tests.TestBase" target="ru.nd.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.FtpHelper" target="ru.nd.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.ApplicationManager" target="ru.nd.appmanager.RegistrationHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.JamesHelper" target="ru.nd.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.ApplicationManager" target="ru.nd.appmanager.JamesHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.MailHelper" target="ru.nd.model.MailMessage">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.tests.RegistrationTests" target="ru.nd.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.ApplicationManager" target="ru.nd.appmanager.MailHelper">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.HelperBase" target="ru.nd.appmanager.ApplicationManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.tests.LoginTests" target="ru.nd.tests.TestBase">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.JamesHelper" target="ru.nd.model.MailMessage">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.nd.appmanager.ApplicationManager" target="ru.nd.appmanager.HttpSession">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="140.5" y="162.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
