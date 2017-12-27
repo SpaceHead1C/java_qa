@@ -15,7 +15,7 @@
 
         <!-- Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://172.20.3.173:3306/addressbook</property>
+        <property name="connection.url">jdbc:mysql://172.20.2.113:3306/addressbook</property>
         <property name="connection.username">loc</property>
         <property name="connection.password">0G1oc</property>
 
