@@ -8,6 +8,7 @@
     <name>test 1</name>
     <header>header 1</header>
     <footer>footer 1</footer>
+	<!--...-->
   </group>
   <group>
     <name>test 2</name>
