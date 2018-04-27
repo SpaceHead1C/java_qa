@@ -28,3 +28,4 @@ addressbook-web-tests/allure-report/
 addressbook-web-tests/build/allure-results/
 addressbook-web-tests/build/reports/
 addressbook-web-tests/build/cucumber-report/
+*.iml
