@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.nd.addressbook.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-19T14:29:37" hostname="MSI" time="0.948">
+<testsuite name="ru.nd.addressbook.tests.GroupDeletionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-30T12:56:11" hostname="MSI" time="0.773">
   <properties/>
-  <testcase name="testGroupDeletion" classname="ru.nd.addressbook.tests.GroupDeletionTests" time="0.948"/>
-  <system-out><![CDATA[17:29:37.031 [Test worker] INFO  ru.nd.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
+  <testcase name="testGroupDeletion" classname="ru.nd.addressbook.tests.GroupDeletionTests" time="0.773"/>
+  <system-out><![CDATA[15:56:10.679 [Test worker] INFO  ru.nd.addressbook.tests.TestBase - Start test testGroupDeletion with parameters []
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
