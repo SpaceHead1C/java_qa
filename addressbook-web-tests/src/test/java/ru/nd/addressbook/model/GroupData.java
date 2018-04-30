@@ -91,17 +91,13 @@ public class GroupData {
         GroupData groupData = (GroupData) o;
 
         if (id != groupData.id) return false;
-        if (name != null ? !name.equals(groupData.name) : groupData.name != null) return false;
-        if (header != null ? !header.equals(groupData.header) : groupData.header != null) return false;
-        return footer != null ? footer.equals(groupData.footer) : groupData.footer == null;
+        return name != null ? name.equals(groupData.name) : groupData.name == null;
     }
 
     @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
-        result = 31 * result + (header != null ? header.hashCode() : 0);
-        result = 31 * result + (footer != null ? footer.hashCode() : 0);
         return result;
     }
 }
