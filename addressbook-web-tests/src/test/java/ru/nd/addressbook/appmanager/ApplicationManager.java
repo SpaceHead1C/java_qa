@@ -3,6 +3,7 @@ package ru.nd.addressbook.appmanager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -73,6 +74,10 @@ public class ApplicationManager {
                 //System.setProperty("webdriver.ie.driver", "C:\\utils\\iedriver\\IEDriverServer.exe");
                 //capabilities = DesiredCapabilities.internetExplorer();
                 options = new InternetExplorerOptions();
+            } else if (browser.equals(BrowserType.EDGE)) {
+                //System.setProperty("webdriver.ie.driver", "C:\\utils\\iedriver\\IEDriverServer.exe");
+                //capabilities = DesiredCapabilities.internetExplorer();
+                options = new EdgeOptions();
             }
 
             //capabilities.setBrowserName(browser);
