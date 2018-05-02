@@ -9,6 +9,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -82,7 +83,8 @@ public class ApplicationManager {
 
             //capabilities.setBrowserName(browser);
             //capabilities.setPlatform(org.openqa.selenium.Platform.WINDOWS);
-            capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "win8.1")));
+            //capabilities.setPlatform(Platform.fromString(System.getProperty("platform", "win8.1")));
+            options.setCapability(CapabilityType.PLATFORM, Platform.fromString(System.getProperty("platform", "win8.1")));
             driver = new RemoteWebDriver(new URL(properties.getProperty("selenium.server")), options);//capabilities);
         }
 
